@@ -9,8 +9,14 @@ Libraries required to run the code
 - numpy==1.20.3
 - neuralprophet==0.3.2
 
+# Running the project
+Clone this repository
+```
+git clone https://github.com/eduardobrennand/ddf_tech_case.git
+```
+Then run the ```ddf_tech_case.ipynb``` inside the questions folder
 # Overview
-Project containing data gathered from the Ireland's Digital Ocean datasets, with data from Ireland's ocean waves and tides.
+Project containing data gathered from the Ireland's Digital Ocean datasets, with data from Ireland's ocean waves and tides. 
 
 
 
