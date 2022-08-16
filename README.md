@@ -7,8 +7,10 @@ Libraries required to run the code
 - matplotlib==3.4.3
 - seaborn==0.11.2
 - numpy==1.20.3
+- neuralprophet==0.3.2
 
 # Overview
+Project containing data gathered from the Ireland's Digital Ocean datasets, with data from Ireland's ocean waves and tides.
 
 
 
