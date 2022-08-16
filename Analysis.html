@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Techincal Test in Data Science</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    </head>
+
+<body>
+    <div class="teste">
+        <header>
+            <h1 class="main_title">Techincal Test in Data Science</h1>
+        </header>
+    </div>
+    
+
+    <div class="question_div">
+        <div class="teste">
+            <h3 class="title_div">1. What is the lowest temperature of each one of the Bouys?</h3>
+        </div>
+            
+            <ul class="q1_ul">
+                <li><b>AMETS Berth A Wave Buoy</b> = 8.55°C</li>
+                <li><b>AMETS Berth B Wave Buoy</b>	= 8.15°C</li>
+                <li><b>Bantry Bay</b> =	5.27°C</li>
+                <li><b>Brandon Bay</b> = 4.47°C</li>
+                <li><b>Clew Bay</b> = 7.50°C</li>
+                <li><b>SmartBay Wave Buoy</b> = 5.31°C</li>
+                <img src="images/q1.png">
+            </ul>
+            
+        <div class="teste">
+            <h3 class="title_div">a. Which usually month it occurs?</h3>
+        </div>    
+        
+        <p>- <b>March</b> is the month where the lowest temperatures can be found at most buoys. However, on 'SmartBay Wave Buoy', January was the month with the lowest temperature.</p>
+        <img src="images/q1_a.png">
+    </div>
+
+    <div class="question_div">
+        <div class="teste">
+            <h3 class="title_div">2. Where (lat/long) do we have the biggest water level?</h3>
+        </div>
+        <p>- The biggest water level can be found at:</p>
+        <ul>
+            <li><b>Latitude:</b> 53.269 degrees north</li>
+            <li><b>Longitude:</b> -9.048 degrees east</li>
+            <li><b>Biggest Water Level:</b> 6.143 meters</li>
+        </ul>
+
+        <div class="teste">
+            <h3 class="title_div">a. Which usually month it occurs?</h3>
+        </div>
+        <p>- It usually occurs at <b>December</b>.</p>
+        <img src="images/q2_a.png">
+    </div>
+
+
+    <div class="question_div">
+        <div class="teste">
+            <h3 class="title_div">3. How the Wave Lenghts correlates with Sea Temperature?</h3>
+        </div>
+        
+        <p>- As we can see in the graph , there is a small correlation between Sea Temperature and Wave Lenght. As the temperatures goes up, Wave Length tends to go down.</p>
+        <img src="images/q3.png">
+
+    </div>
+</body>
+
+<style>
+    body {
+        font-family: 'Roboto'
+    }
+
+    p {
+        margin-left: 15px
+    }
+
+    .teste { 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_title {
+        font-weight: bold;
+        border: 1px solid gray;
+    }
+
+    .question_div {
+        border: 1px solid blue;
+        margin-bottom: 25px;
+    }
+
+    .title_div {
+        padding: 5px;
+        border: 1px solid lightskyblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+</style>
